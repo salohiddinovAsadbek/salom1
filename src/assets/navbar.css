@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: calc(399 / 19.2 * 1vw);
+  height: calc(50 / 19.2 * 1vw);
+  padding-top: calc(43 / 19.2 * 1vw);
+  padding-bottom: calc(45 / 19.2 * 1vw);
+}
+
+.navbar .logo {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .logo img {
+  width: calc(34 / 14.4 * 1vw);
+}
+
+.navbar h1 {
+  font-size: calc(40 / 19.2 * 1vw);
+  line-height: calc(50 / 19.2 * 1vw);
+  font-weight: 500;
+  font-family: "DM Sans", serif;
+  color: #292f36;
+}
+
+.links {
+  display: flex;
+  width: calc(624 / 19.2 * 1vw);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #292f36;
+  font-size: calc(20 / 19.2 * 1vw);
+  line-height: calc(25 / 19.2 * 1vw);
+  font-family: "Jost", serif;
+}
+
+.links img {
+  width: calc(21 / 19.2 * 1vw);
+}

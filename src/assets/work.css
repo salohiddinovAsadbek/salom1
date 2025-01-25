@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.works-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(200 / 19.2 * 1vw);
+  margin-bottom: calc(200 / 19.2 * 1vw);
+}
+
+.works-parent {
+  width: calc(1199 / 19.2 * 1vw);
+  border-radius: calc(50 / 19.2 * 1vw);
+  background-color: #f4f0ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: calc(160 / 19.2 * 1vw);
+}
+
+.works-parent h1 {
+  font-size: calc(50 / 19.2 * 1vw);
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  line-height: 62 / 19.2 * 1vw;
+  padding-top: calc(160 / 19.2 * 1vw);
+}
+
+.works-parent p {
+  color: #4d5053;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-family: "Jost", serif;
+  line-height: calc(33 / 19.2 * 1vw);
+}
+
+.works-first-flex {
+  display: flex;
+  gap: calc(51 / 14.4 * 1vw);
+  padding-top: calc(100 / 19.2 * 1vw);
+}
+
+.works-first-flex_left img {
+  width: calc(600 / 19.2 * 1vw);
+  padding-left: calc(116 / 19.2 * 1vw);
+}
+
+.works-first_right {
+  padding-right: calc(116 / 19.2 * 1vw);
+  display: flex;
+  flex-direction: column;
+}
+
+.works-first_right img {
+  width: calc(400 / 19.2 * 1vw);
+}
+
+.works-first_right h2 {
+  font-size: calc(35 / 19.2 * 1vw);
+  line-height: calc(43 / 19.2 * 1vw);
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  padding-top: calc(58 / 19.2 * 1vw);
+  padding-bottom: calc(11 / 19.2 * 1vw);
+}
+
+.works-first_right p {
+  font-family: "Jost", serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  color: #4d5053;
+  line-height: calc(33 / 19.2 * 1vw);
+  font-weight: 400;
+}
+
+.works-second-flex {
+  display: flex;
+  padding-top: calc(70 / 19.2 * 1vw);
+  gap: calc(60 / 19.2 * 1vw);
+}
+
+.works-second-left {
+  padding-left: calc(116 / 19.2 * 1vw);
+}
+
+.works-second-right img {
+  width: calc(500 / 19.2 * 1vw);
+}
+
+.works-second-right {
+  padding-right: calc(100 / 19.2 * 1vw);
+}
+
+.works-second-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.works-second-left h2 {
+  font-size: calc(35 / 19.2 * 1vw);
+  line-height: calc(43 / 19.2 * 1vw);
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  padding-top: calc(58 / 19.2 * 1vw);
+  padding-bottom: calc(11 / 19.2 * 1vw);
+}
+
+.works-second-left img {
+  width: calc(400 / 19.2 * 1vw);
+}

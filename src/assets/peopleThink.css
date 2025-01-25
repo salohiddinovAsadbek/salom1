@@ -1,0 +1,93 @@
+.about {
+  width: calc(1199 / 19.2 * 1vw);
+  height: calc(679 / 19.2 * 1vw);
+  border-radius: calc(70 / 19.2 * 1vw);
+  padding: calc(88 / 19.2 * 1vw) calc(24 / 19.2 * 1vw);
+  background-color: #f4f0ec;
+  margin-top: calc(200 / 19.2 * 1vw);
+  margin-left: calc(360 / 19.2 * 1vw);
+}
+
+.about > h1 {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(62.5 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: calc(557 / 19.2 * 1vw);
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: #292f36;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+  margin-top: calc(38 / 19.2 * 1vw);
+  justify-content: space-between;
+}
+
+.people > div {
+  width: calc(370 / 19.2 * 1vw);
+  height: calc(339 / 19.2 * 1vw);
+  background-color: white;
+  border-radius: calc(20 / 19.2 * 1vw);
+  padding: calc(53 / 19.2 * 1vw) calc(37 / 19.2 * 1vw) 0px calc(37 / 19.2 * 1vw);
+}
+
+.people > div > div {
+  display: flex;
+  align-items: center;
+  column-gap: calc(23 / 19.2 * 1vw);
+}
+
+.people > div > div > img {
+  width: calc(77 / 19.2 * 1vw);
+  height: calc(77 / 19.2 * 1vw);
+}
+
+.work {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(25 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(37.5 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  color: #292f36;
+  text-decoration-skip-ink: none;
+}
+
+.people > div > div > h3 > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(27 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d5053;
+}
+
+.people > div > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: calc(25 / 19.2 * 1vw);
+}
+
+.work2 {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

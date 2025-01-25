@@ -1,0 +1,116 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(135 / 19.2 * 1vw);
+}
+
+.footerTop {
+  display: flex;
+  gap: calc(101 / 19.2 * 1vw);
+  justify-content: center;
+  padding-bottom: calc(134 / 19.2 * 1vw);
+}
+
+.footerTop > div:first-child {
+  width: calc(393 / 19.2 * 1vw);
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTop > div:first-child > img {
+  width: calc(177 / 19.2 * 1vw);
+  height: calc(50 / 19.2 * 1vw);
+}
+
+.footerTop > div:first-child > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  color: #4d5053;
+  margin-top: calc(18 / 19.2 * 1vw);
+  margin-bottom: calc(31 / 19.2 * 1vw);
+}
+
+.logosFooter {
+  display: flex;
+  gap: calc(54 / 19.2 * 1vw);
+  align-items: center;
+}
+
+.logosFooter > img:first-child {
+  width: calc(12 / 19.2 * 1vw);
+  height: calc(22 / 19.2 * 1vw);
+}
+
+.logosFooter > img:nth-child(2) {
+  width: calc(18 / 19.2 * 1vw);
+  height: calc(22 / 19.2 * 1vw);
+}
+
+.logosFooter > img:nth-child(3) {
+  width: calc(16 / 19.2 * 1vw);
+  height: calc(22 / 19.2 * 1vw);
+}
+
+.logosFooter > img:nth-child(4) {
+  width: calc(17 / 19.2 * 1vw);
+  height: calc(23 / 19.2 * 1vw);
+}
+
+.footerCards {
+  display: flex;
+  flex-direction: column;
+  gap: calc(9 / 19.2 * 1vw);
+}
+
+.footerCards > div {
+  display: flex;
+  flex-direction: column;
+  gap: calc(30 / 19.2 * 1vw);
+}
+
+.footerCards > div > a {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(66 / 19.2 * 1vw);
+  color: #4d5053;
+}
+
+.footerCards > h1 {
+  font-family: DM Serif Display, sans-serif;
+  font-size: calc(25 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(31 / 19.2 * 1vw);
+  color: #292f36;
+}
+
+.footerTop > div:last-child {
+  width: calc(258 / 19.2 * 1vw);
+}
+
+.footerError > a:first-child {
+  font-family: Jost;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(40 / 19.2 * 1vw);
+  margin-top: calc(18 / 19.2 * 1vw);
+}
+
+.footerBottom {
+  border-top: calc(2 / 19.2 * 1vw) solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: calc(40 / 19.2 * 1vw) 0;
+  padding-bottom: calc(46 / 19.2 * 1vw);
+}
+
+.footerBottom > p {
+  font-family: Jost;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  color: #4d5053;
+}

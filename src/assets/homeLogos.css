@@ -1,0 +1,32 @@
+.homeLogos {
+  display: flex;
+  gap: calc(108 / 19.2 * 1vw);
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(150 / 19.2 * 1vw);
+}
+
+.homeLogos > img:first-child {
+  width: calc(131 / 19.2 * 1vw);
+  height: calc(42 / 19.2 * 1vw);
+}
+
+.homeLogos > img:nth-child(2) {
+  width: calc(102 / 19.2 * 1vw);
+  height: calc(102 / 19.2 * 1vw);
+}
+
+.homeLogos > img:nth-child(3) {
+  width: calc(163 / 19.2 * 1vw);
+  height: calc(43 / 19.2 * 1vw);
+}
+
+.homeLogos > img:nth-child(4) {
+  width: calc(145 / 19.2 * 1vw);
+  height: calc(44 / 19.2 * 1vw);
+}
+
+.homeLogos > img:nth-child(5) {
+  width: calc(116 / 19.2 * 1vw);
+  height: calc(47 / 19.2 * 1vw);
+}

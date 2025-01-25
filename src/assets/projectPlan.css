@@ -1,0 +1,51 @@
+.projectPlan {
+  display: flex;
+  gap: calc(42 / 19.2 * 1vw);
+  justify-content: center;
+  margin-top: calc(200 / 19.2 * 1vw);
+}
+
+.projectPlan > div {
+  width: calc(358 / 19.2 * 1vw);
+}
+
+.projectPlan > div > h1 {
+  font-family: DM Serif Display, sans-serif;
+  font-size: calc(25 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(31 / 19.2 * 1vw);
+  color: #292f36;
+  text-align: center;
+}
+
+.projectPlan > div > p:nth-child(2) {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  color: #4d5053;
+  text-align: center;
+  margin-top: calc(20 / 19.2 * 1vw);
+  margin-bottom: calc(52 / 19.2 * 1vw);
+}
+
+.projectPlan > div > p:last-child {
+  display: flex;
+  gap: calc(12 / 19.2 * 1vw);
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.projectPlan > div > p > span > img {
+  width: calc(15 / 19.2 * 1vw);
+  height: calc(13 / 19.2 * 1vw);
+}
+
+.projectPlan > div > p:last-child > span {
+  font-family: Jost, sans-serif;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 600;
+  line-height: calc(23 / 19.2 * 1vw);
+  color: #4d5053;
+}

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.living {
+  width: calc(1200 / 19.2 * 1vw);
+  height: calc(700 / 19.2 * 1vw);
+  margin-top: calc(200 / 19.2 * 1vw);
+  display: flex;
+  align-items: center;
+  column-gap: calc(75 / 19.2 * 1vw);
+  margin-left: calc(370 / 19.2 * 1vw);
+}
+
+.living-left {
+  width: calc(472 / 19.2 * 1vw);
+  height: calc(614 / 19.2 * 1vw);
+}
+
+.living > img {
+  width: calc(653 / 19.2 * 1vw);
+  height: calc(700 / 19.2 * 1vw);
+}
+
+.living-left > h1 {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(62.5 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292f36;
+}
+
+.living-left > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: calc(33 / 19.2 * 1vw);
+  color: #4d5053;
+}
+
+.living-left > div {
+  display: flex;
+  align-items: center;
+  column-gap: calc(15 / 19.2 * 1vw);
+  margin-top: calc(45 / 19.2 * 1vw);
+}
+
+.living-left > div > img {
+  width: calc(93 / 19.2 * 1vw);
+  height: calc(93 / 19.2 * 1vw);
+}
+
+.living-left > div > h3 {
+  font-family: Jost, sans-serif;
+  font-size: calc(24 / 19.2 * 1vw);
+  font-weight: 700;
+  line-height: calc(36 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d5053;
+}
+
+.living-left > div > h3 > P {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.living-left > button {
+  padding: calc(26 / 19.2 * 1vw) calc(31 / 19.2 * 1vw);
+  border-radius: calc(18 / 19.2 * 1vw);
+  border: none;
+  display: flex;
+  align-items: center;
+  column-gap: calc(10 / 19.2 * 1vw);
+  background-color: #292f36;
+  box-shadow: 0px 10px 20px 0px #c0c0c059;
+  font-family: Jost, sans-serif;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 600;
+  line-height: calc(22.5 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin-top: calc(47 / 19.2 * 1vw);
+}
+
+.living-left > button > img {
+  width: calc(15.14 / 19.2 * 1vw);
+  height: calc(13.18 / 19.2 * 1vw);
+}

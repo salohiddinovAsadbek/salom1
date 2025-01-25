@@ -1,0 +1,11 @@
+.map {
+  width: calc(1199 / 19.2 * 1vw);
+  height: calc(501 / 19.2 * 1vw);
+  margin-top: calc(150 / 19.2 * 1vw);
+  margin-left: calc(362 / 19.2 * 1vw);
+}
+
+.map > img {
+  width: 100%;
+  height: 100%;
+}

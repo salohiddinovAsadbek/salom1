@@ -1,0 +1,130 @@
+.esteble {
+  margin-top: calc(200 / 19.2 * 1vw);
+  margin-left: calc(360 / 19.2 * 1vw);
+}
+
+.interio {
+  display: flex;
+  align-items: center;
+  width: calc(875 / 19.2 * 1vw);
+  height: calc(428 / 19.2 * 1vw);
+  margin-left: calc(50 / 19.2 * 1vw);
+}
+
+.interio > img {
+  width: calc(188 / 19.2 * 1vw);
+  height: calc(428 / 19.2 * 1vw);
+}
+
+.interio > div > p:nth-child(1) {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(85 / 19.2 * 1vw);
+  font-style: italic;
+  font-weight: 400;
+  line-height: calc(106.25 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292f36;
+}
+
+.interio > div > p:nth-child(2) {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(35 / 19.2 * 1vw);
+  font-style: italic;
+  font-weight: 400;
+  line-height: calc(43.75 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: calc(751 / 19.2 * 1vw);
+  margin-top: calc(27 / 19.2 * 1vw);
+  color: #292f36;
+}
+
+.interio > div > p:nth-child(3) {
+  font-family: Jost, sans-serif;
+  font-size: calc(25 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(37.5 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: calc(34 / 19.2 * 1vw);
+  color: #4d5053;
+}
+
+.concept {
+  display: flex;
+  align-items: center;
+  margin-top: calc(200 / 19.2 * 1vw);
+  width: calc(1200 / 19.2 * 1vw);
+  height: calc(377 / 19.2 * 1vw);
+  column-gap: calc(41 / 19.2 * 1vw);
+}
+
+.concept > img {
+  width: calc(659 / 19.2 * 1vw);
+  height: calc(377 / 19.2 * 1vw);
+}
+
+.concept > div {
+  width: calc(500 / 19.2 * 1vw);
+  height: calc(334 / 19.2 * 1vw);
+}
+
+.concept > div > h1 {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(62.5 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292f36;
+}
+
+.concept > div > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  color: #4d5053;
+  text-decoration-skip-ink: none;
+  margin-top: calc(23 / 19.2 * 1vw);
+}
+
+.concept > div > button {
+  padding: calc(26 / 19.2 * 1vw) calc(41 / 19.2 * 1vw);
+  border-radius: calc(18 / 19.2 * 1vw);
+  border: none;
+  display: flex;
+  align-items: center;
+  column-gap: calc(10 / 19.2 * 1vw);
+  background-color: #292f36;
+  box-shadow: 0px 10px 20px 0px #c0c0c059;
+  font-family: Jost, sans-serif;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 600;
+  line-height: calc(22.5 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin-top: calc(47 / 19.2 * 1vw);
+}
+
+.concept > div > button > img {
+  width: calc(15.14 / 19.2 * 1vw);
+  height: calc(13.18 / 19.2 * 1vw);
+}
+
+.esteble > div:nth-child(3) {
+  margin-top: calc(150 / 19.2 * 1vw);
+  flex-direction: row-reverse;
+}

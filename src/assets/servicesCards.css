@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.about-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  padding-top: calc(200 / 19.2 * 1vw);
+  column-gap: calc(42 / 19.2 * 1vw);
+  row-gap: calc(88 / 19.2 * 1vw);
+}
+
+.about-comp {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.about-child {
+  width: calc(358 / 19.2 * 1vw);
+  height: calc(391 / 19.2 * 1vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(30 / 19.2 * 1vw);
+  transition: 0.1s all ease-in-out;
+}
+
+.about-child h1 {
+  font-size: calc(25 / 19.2 * 1vw);
+  color: #292f36;
+  line-height: calc(31 / 19.2 * 1vw);
+  font-weight: 400;
+  align-items: center;
+  font-family: "DM Serif Display", serif;
+}
+
+.about-child p {
+  font-family: "Jost", serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  line-height: calc(33 / 19.2 * 1vw);
+  font-weight: 400;
+  padding-top: calc(20 / 19.2 * 1vw);
+  text-align: center;
+}
+
+.about-child:hover {
+  background-color: #f4f0ec;
+}
+
+.read-plus-vector {
+  display: flex;
+  gap: calc(12 / 19.2 * 1vw);
+  padding-top: calc(52 / 14.4 * 1vw);
+}
+
+.read-plus-vector h3 {
+  font-family: "Jost", serif;
+  font-size: calc(18 / 19.2 * 1vw);
+  line-height: calc(22 / 19.2 * 1vw);
+  color: #4d5053;
+}

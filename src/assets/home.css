@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homePage {
+  background: url("../images/home.png") center/ cover;
+  width: 100%;
+  height: calc(1042 / 19.2 * 1vw);
+}
+.home {
+  margin-left: calc(360 / 19.2 * 1vw);
+  padding-top: calc(330 / 19.2 * 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: calc(9 / 19.2 * 1vw);
+  width: calc(567 / 19.2 * 1vw);
+}
+
+.home header {
+  font-family: DM Serif Display;
+  font-size: calc(85 / 19.2 * 1vw);
+  font-weight: 400;
+}
+.home p {
+  font-family: Jost;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  color: #4d5053;
+}
+.home .btn button {
+  border: none;
+
+  background-color: #292f36;
+  font-size: calc(18 / 19.2 * 1vw);
+  color: white;
+}
+.home .btn {
+  gap: calc(10 / 19.2 * 1vw);
+  background-color: #292f36;
+  width: calc(219 / 19.2 * 1vw);
+  height: calc(75 / 19.2 * 1vw);
+  border: calc(2 / 19.2 * 1vw) solid black;
+  gap: calc(10 / 19.2 * 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: calc(10 / 19.2 * 1vw);
+  border: none;
+  cursor: pointer;
+  margin-top: calc(10 / 19.2 * 1vw);
+}
+.home .btn i {
+  color: #cda274;
+
+  font-size: calc(28 / 19.2 * 1vw);
+}

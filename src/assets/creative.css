@@ -1,0 +1,93 @@
+.creative {
+  width: calc(796 / 19.2 * 1vw);
+  height: calc(632 / 19.2 * 1vw);
+  margin-top: calc(213 / 19.2 * 1vw);
+  margin-left: calc(562 / 19.2 * 1vw);
+  margin-bottom: calc(135 / 19.2 * 1vw);
+}
+
+.creative > h1 {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(62.5 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: calc(654 / 19.2 * 1vw);
+  margin-right: auto;
+  margin-left: auto;
+  color: #292f36;
+}
+
+.creative > div {
+  width: calc(796 / 19.2 * 1vw);
+  height: calc(277 / 19.2 * 1vw);
+  margin-top: calc(77 / 19.2 * 1vw);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.creative > div > input {
+  width: calc(372 / 19.2 * 1vw);
+  height: calc(45 / 19.2 * 1vw);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: calc(1 / 19.2 * 1vw) solid #000000;
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d5053;
+  outline: none;
+  padding-bottom: calc(13 / 19.2 * 1vw);
+}
+
+.creative > div > input::placeholder {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d5053;
+}
+
+.creative > div > input:nth-child(3) {
+  width: calc(795 / 19.2 * 1vw);
+  height: calc(175 / 19.2 * 1vw);
+  margin-top: calc(57 / 19.2 * 1vw);
+}
+
+.creative > button {
+  padding: calc(26 / 19.2 * 1vw) calc(41 / 19.2 * 1vw);
+  border-radius: calc(18 / 19.2 * 1vw);
+  border: none;
+  display: flex;
+  align-items: center;
+  column-gap: calc(10 / 19.2 * 1vw);
+  background-color: #292f36;
+  box-shadow: 0px 10px 20px 0px #c0c0c059;
+  font-family: Jost, sans-serif;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 600;
+  line-height: calc(22.5 / 19.2 * 1vw);
+  letter-spacing: 0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin-top: calc(77 / 19.2 * 1vw);
+  margin-left: calc(287 / 19.2 * 1vw);
+}
+
+.creative > button > img {
+  width: calc(15.14 / 19.2 * 1vw);
+  height: calc(13.18 / 19.2 * 1vw);
+}

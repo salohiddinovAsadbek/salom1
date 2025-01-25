@@ -1,0 +1,82 @@
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: calc(40 / 19.2 * 1vw);
+  padding: calc(184 / 19.2 * 1vw) 0;
+  background-color: #f4f0ec;
+  margin-top: calc(173 / 19.2 * 1vw);
+}
+
+.person > h1 {
+  width: calc(547 / 19.2 * 1vw);
+  text-align: center;
+}
+
+.personWrapper {
+  display: flex;
+  justify-content: center;
+  gap: calc(22 / 19.2 * 1vw);
+}
+
+.personCard > img {
+  width: 100%;
+  height: 100%;
+}
+
+.personCard {
+  width: calc(283 / 19.2 * 1vw);
+  height: calc(433 / 19.2 * 1vw);
+  border: none;
+  border-radius: calc(30 / 19.2 * 1vw);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personCard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.personCard2 > h1 {
+  font-family: DM Serif Display;
+  font-size: calc(25 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(37 / 19.2 * 1vw);
+  color: #292f36;
+}
+
+.personCard2 > p:nth-child(2) {
+  font-family: Jost;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(27 / 19.2 * 1vw);
+  color: #292f36;
+}
+
+.personCard2 > img:nth-child(3) {
+  width: calc(147 / 19.2 * 1vw);
+  height: calc(22 / 19.2 * 1vw);
+  margin-top: calc(66 / 19.2 * 1vw);
+  margin-bottom: calc(66 / 19.2 * 1vw);
+}
+
+.personCard2 > p:nth-child(4) {
+  font-family: Jost;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(27 / 19.2 * 1vw);
+  color: #4d5053;
+}
+.personCard2 > p:nth-child(5) {
+  font-family: Jost;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(27 / 19.2 * 1vw);
+  color: #4d5053;
+}

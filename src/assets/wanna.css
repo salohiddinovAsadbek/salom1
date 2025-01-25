@@ -1,0 +1,61 @@
+.wanna {
+  display: flex;
+  height: calc(374 / 19.2 * 1vw);
+  align-items: center;
+  justify-content: center;
+}
+
+.wannaWrapper {
+  width: calc(1199 / 19.2 * 1vw);
+  height: 100%;
+  border: none;
+  border-radius: calc(70 / 19.2 * 1vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #292f36;
+}
+
+.wannaWrapper > h1 {
+  font-family: DM Serif Display, sans-serif;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(63 / 19.2 * 1vw);
+  color: #ffffff;
+}
+
+.wannaWrapper > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  color: #ffffff;
+  line-height: calc(33 / 19.2 * 1vw);
+  margin-top: calc(11 / 19.2 * 1vw);
+  margin-bottom: calc(32 / 19.2 * 1vw);
+}
+
+.wannaWrapper > button {
+  width: calc(237 / 19.2 * 1vw);
+  height: calc(75 / 19.2 * 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: calc(18 / 19.2 * 1vw);
+  background-color: #cda274;
+  gap: calc(11 / 19.2 * 1vw);
+}
+
+.wannaWrapper > button > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 600;
+  line-height: calc(23 / 19.2 * 1vw);
+  color: #ffffff;
+}
+
+.wannaWrapper > button > img {
+  width: calc(15 / 19.2 * 1vw);
+  height: calc(13 / 19.2 * 1vw);
+}

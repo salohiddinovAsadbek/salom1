@@ -1,0 +1,37 @@
+.aboutTop {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: calc(356 / 19.2 * 1vw);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutTop > div {
+  width: calc(503 / 19.2 * 1vw);
+  height: calc(178 / 19.2 * 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: calc(37 / 19.2 * 1vw);
+  border-top-right-radius: calc(37 / 19.2 * 1vw);
+  flex-direction: column;
+  background-color: white;
+}
+
+.aboutTop > div > h1 {
+  font-family: DM Serif Display, sans-serif;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(63 / 19.2 * 1vw);
+  color: #292f36;
+}
+
+.aboutTop > div > p {
+  font-family: Jost, sans-serif;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(33 / 19.2 * 1vw);
+  color: #4d5053;
+}
