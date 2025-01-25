@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Contact {
+  margin-top: calc(200 / 19.2 * 1vw);
+}
+.info {
+  background-color: #f4f0ec;
+  width: calc(349 / 19.2 * 1vw);
+  height: calc(436 / 19.2 * 1vw);
+  padding-top: calc(76 / 19.2 * 1vw);
+  gap: calc(30 / 19.2 * 1vw);
+  border-radius: calc(50 / 19.2 * 1vw);
+  opacity: 0px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+.info .gmail,
+.web {
+  gap: calc(15 / 19.2 * 1vw);
+  justify-content: center;
+  align-items: center;
+  padding-left: calc(32 / 19.2 * 1vw);
+  padding-right: calc(56 / 19.2 * 1vw);
+  font-size: calc(20 / 19.2 * 1vw);
+  display: flex;
+}
+.info .gmail i,
+.phone i,
+.web i {
+  padding: calc(20 / 19.2 * 1vw);
+  background-color: white;
+  border-radius: 50%;
+}
+.info .phone {
+  gap: calc(15 / 19.2 * 1vw);
+  justify-content: center;
+  align-items: center;
+
+  padding-right: calc(56 / 19.2 * 1vw);
+  font-size: calc(20 / 19.2 * 1vw);
+  display: flex;
+}
+.info .icons {
+  display: flex;
+  justify-content: left;
+  padding-left: calc(32 / 19.2 * 1vw);
+  align-items: left;
+  gap: calc(35 / 19.2 * 1vw);
+  font-size: calc(18 / 19.2 * 1vw);
+}
+.send-input .inputs input {
+  border: none;
+  border-bottom: calc(2 / 19.2 * 1vw) solid #000000;
+  width: calc(378 / 19.2 * 1vw);
+  height: calc(40 / 19.2 * 1vw);
+  list-style: none;
+  outline: none;
+  padding-bottom: calc(10 / 19.2 * 1vw);
+}
+.send-input .inputs input::placeholder {
+  font-size: calc(22 / 19.2 * 1vw);
+}
+.send-input .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(40 / 19.2 * 1vw);
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(55 / 19.2 * 1vw);
+  padding-left: calc(360 / 19.2 * 1vw);
+  padding-right: calc(360 / 19.2 * 1vw);
+}
+.section .send-input {
+  padding-top: calc(40 / 19.2 * 1vw);
+}
+.send-input .text input {
+  border: none;
+  padding-top: calc(50 / 19.2 * 1vw);
+  font-family: Jost;
+  font-size: calc(22 / 19.2 * 1vw);
+  font-weight: 400;
+  border-bottom: calc(2 / 19.2 * 1vw) solid #000000;
+  width: calc(797 / 19.2 * 1vw);
+  padding-bottom: calc(130 / 19.2 * 1vw);
+  outline: none;
+}
+.send-input .btn {
+  width: calc(220 / 19.2 * 1vw);
+  height: calc(70 / 19.2 * 1vw);
+  border: calc(2 / 19.2 * 1vw) solid black;
+  gap: calc(10 / 19.2 * 1vw);
+  border-radius: calc(20 / 19.2 * 1vw);
+  background-color: #292f36;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: calc(58 / 19.2 * 1vw);
+  transform: translate(calc(590 / 19.2 * 1vw), 0px);
+}
+.send-input .btn button {
+  border: none;
+  font-family: Jost;
+  font-size: calc(18 / 19.2 * 1vw);
+  font-weight: 600;
+  color: white;
+  background-color: #292f36;
+}
+.send-input .btn i {
+  color: #cda274;
+  font-size: calc(18 / 19.2 * 1vw);
+}
+.Contact header {
+  font-family: DM Serif Display;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(75 / 19.2 * 1vw);
+  letter-spacing: 0.01em;
+  text-align: center;
+}
