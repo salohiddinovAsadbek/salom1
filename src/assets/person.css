@@ -12,6 +12,11 @@
 .person > h1 {
   width: calc(547 / 19.2 * 1vw);
   text-align: center;
+  font-family: DM Serif Display;
+  font-size: calc(50 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(63 / 19.2 * 1vw);
+  color: #292f36;
 }
 
 .personWrapper {
