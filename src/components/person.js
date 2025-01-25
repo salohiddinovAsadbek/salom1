@@ -61,10 +61,14 @@ function Person() {
           return (
             <div
               className="personCard"
+              key={index}
               onClick={() => {
                 setData((c) => {
                   const update = [...c];
-                  update[index].isOpen = true;
+                  update.map((item) => {
+                    item.isOpen = false;
+                  });
+                  update[item.id - 1].isOpen = !update[item.id - 1].isOpen;
                   return update;
                 });
               }}
